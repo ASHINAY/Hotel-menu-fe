@@ -5,7 +5,7 @@
 }
 
 .MainContainer {
-  height: 85px;
+  height: 65px;
   display: flex;
   flex-direction: column;
   background: #4682A9;
