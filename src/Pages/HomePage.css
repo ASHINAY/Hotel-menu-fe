@@ -1,84 +1,93 @@
 .wholePage {
-    height: 100vh;
-    width: 100%;
-    background: #F0E9E9;
+  height: 100vh;
+  width: 100%;
+  background: #F0E9E9;
 }
 
 .MainContainer {
-    height: 44px;
-    /* width: 300px; */
-    display: flex;
-    flex-direction: column;
-    background: #FF4949;
-    color: white;
-    align-items: center;
-    justify-content: center;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  background: #4682A9;
+  color: white;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .lastBlock {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .Title {
-    height: 30px;
-    /* width: 150px; */
-    font-family: Poppins;
-    font-weight: 200px;
-    font-size: 17px;
-    color: #FFFFFF;
+  height: 30px;
+  /* width: 150px; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300px;
+  font-size: 22px;
+  color: #FFFFFF;
 
 }
 
 .Hotel {
-    display: flex;
-    margin-left: 44px;
-    margin-top: 20px;
-    font-family: Poppins;
-    font-weight: 200px;
-    font-size: 15px;
-    color: #FF4949;
-    border-bottom: #FF4949;
-    min-width: 150px;
+  display: flex;
+  margin-left: 24px;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200px;
+  font-size: 15px;
+  color: #FF4949;
+  border-bottom: #FF4949;
+  min-width: 150px;
 }
 
 .Morning {
-    width: 80px;
-    height: 70px;
-    margin-top: 17px;
-    margin-left: 20px;
-    border-radius: 2px;
-    border: 1px solid #FF8D29;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    /* padding-top: 20px; */
+  width: 150px;
+  height: 120px;
+  margin-top: 17px;
+  margin-left: 20px;
+  border-radius: 8px;
+  border: 2px solid #FF8D29;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  color: black;
+  margin-right: 20px;
+  column-gap: 40px;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .MorningRow {
-    display: flex;
+  display: flex;
+  margin-right: 5px;
+  column-gap: 10px;
+
 }
 
 .MainContainer {
-    display: flex;
-    justify-content: row;
+  display: flex;
+  justify-content: row;
 
-    flex-direction: column;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
-    .MainContainer {
-        width: 80%;
-    }
+  .MainContainer {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width:480px) {
-    .MainContainer {
-        width: 100%
-    }
+  .MainContainer {
+    width: 100%
+  }
 
-    /* .MorningRow{
+  /* .MorningRow{
         flex-direction: column;
     }
     .Morning{

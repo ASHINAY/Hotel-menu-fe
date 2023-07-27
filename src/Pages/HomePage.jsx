@@ -7,9 +7,7 @@ function HomePage() {
     <div className='wholePage'>
       <div className='MainContainer'>
         <div className='Title' >Hotel Anna Poorna</div>
-
-        <span>Tastes Like Heaven, Feels Like Home</span>
-
+        <span style={{ fontSize: "15px", marginTop: '5px' }}>Tastes Like Heaven, Feels Like Home</span>
       </div>
       <div className='Hotel'>Hotel Menu</div>
       <div className='MorningContainer'>
