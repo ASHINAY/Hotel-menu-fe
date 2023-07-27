@@ -1,57 +1,91 @@
-.wholePage{
+.wholePage {
     height: 100vh;
     background: #F0E9E9;
-    
 }
 
 .MainContainer {
     height: 44px;
-    width: 400px;
+    width: 300px;
     display: flex;
-
+    flex-direction: column;
     background: #FF4949;
     color: white;
-
+    align-items: center;
     justify-content: center;
 }
 
-.Title{
-   height: 30px;
-   width: 150px;  
-   font-family: Poppins;
-   font-weight: 200px;
-   font-size:17px ;
-   color: #FFFFFF;
+.lastBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.Title {
+    height: 30px;
+    width: 150px;
+    font-family: Poppins;
+    font-weight: 200px;
+    font-size: 17px;
+    color: #FFFFFF;
 
 }
 
-   .Hotel{
+.Hotel {
     display: flex;
     margin-left: 44px;
     margin-top: 20px;
     font-family: Poppins;
-   font-weight: 200px;
-   font-size:15px ; 
+    font-weight: 200px;
+    font-size: 15px;
     color: #FF4949;
     border-bottom: #FF4949;
-    min-width:150px;  
-} 
-.Morning{
+    min-width: 150px;
+}
+
+.Morning {
     width: 80px;
     height: 70px;
     margin-top: 17px;
     margin-left: 20px;
     border-radius: 2px;
-    border: 1px solid  #FF8D29;
+    border: 1px solid #FF8D29;
     display: flex;
-    justify-content: row;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
     /* padding-top: 20px; */
 }
 
-.MainContainer{
+.MorningRow {
+    display: flex;
+}
+
+.MainContainer {
     display: flex;
     justify-content: row;
-    
+
     flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .MainContainer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .MainContainer {
+        width: 100%
+    }
+
+    /* .MorningRow{
+        flex-direction: column;
+    }
+    .Morning{
+margin-left: 0%;
+margin-bottom: 20px;
+    }
+    .Hotel{
+        margin-left: 20px;
+    justify-content: center;
+} */
 }
