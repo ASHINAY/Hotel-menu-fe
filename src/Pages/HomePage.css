@@ -1,11 +1,12 @@
 .wholePage {
     height: 100vh;
+    width: 100%;
     background: #F0E9E9;
 }
 
 .MainContainer {
     height: 44px;
-    width: 300px;
+    /* width: 300px; */
     display: flex;
     flex-direction: column;
     background: #FF4949;
@@ -21,7 +22,7 @@
 
 .Title {
     height: 30px;
-    width: 150px;
+    /* width: 150px; */
     font-family: Poppins;
     font-weight: 200px;
     font-size: 17px;
