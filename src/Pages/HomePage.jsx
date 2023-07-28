@@ -9,7 +9,10 @@ function HomePage() {
         <div className='Title' >Hotel Anna Poorna</div>
         <div className='AppText'>Tastes Like Heaven, Feels Like Home</div>
       </div>
+
       <div className='Hotel'>Hotel Menu</div>
+      <hr style={{ height: "1px" }}
+      />
       <div className='MorningContainer'>
         <div className='MorningRow'>
           <div className='Morning'>
