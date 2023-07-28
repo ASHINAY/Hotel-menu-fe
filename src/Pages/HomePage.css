@@ -12,12 +12,6 @@
   align-items: center;
   justify-content: center;
 }
-/* .Line{
-  height: 1px;
-  width: 100%;
-  background: #4682A9;
-} */
-
 .AppText {
   font-size: 15px;
   opacity: 0.8;

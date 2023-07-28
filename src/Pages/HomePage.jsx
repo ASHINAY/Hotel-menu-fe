@@ -1,4 +1,4 @@
-import croissant from '../images/croissant.png'
+import morningIcon from '../images/morningIcon.png'
 import React from 'react'
 import '../Pages/HomePage.css';
 
@@ -20,8 +20,12 @@ function HomePage() {
       <div className='MorningContainer'>
         <div className='MorningRow'>
           <div className='Morning'>
-            <img src={croissant} />
-            <span>Morning Mood</span>
+            <img
+              style={{ margin: "0px 2px 5px 30px" }}
+              src={morningIcon} />
+
+            <span style={{ display: "flex", flexDirection: "column" }}>Morning Mood</span>
+
           </div>
 
           <div className='Morning'>
