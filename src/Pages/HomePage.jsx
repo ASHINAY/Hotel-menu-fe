@@ -1,7 +1,7 @@
-import './images/croissant.png';
+import croissant from '../images/croissant.png'
 import React from 'react'
 import '../Pages/HomePage.css';
-// import { useNavigate } from 'react-router-dom'
+
 
 function HomePage() {
   return (
@@ -12,14 +12,15 @@ function HomePage() {
       </div>
 
       <div className='Hotel'>Hotel Menu</div>
-      <hr style={{ height: "1px",backgroundColor:"#4682A9",
-      marginLeft:"22px",marginRight:"22px" }}
+      <hr style={{
+        height: "1px", backgroundColor: "#4682A9",
+        marginLeft: "22px", marginRight: "22px"
+      }}
       />
       <div className='MorningContainer'>
         <div className='MorningRow'>
           <div className='Morning'>
-            <img src={require('./images/croissant.png')} 
-             alt = ""/>
+            <img src={croissant} />
             <span>Morning Mood</span>
           </div>
 
