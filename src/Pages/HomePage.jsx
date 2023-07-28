@@ -11,7 +11,8 @@ function HomePage() {
       </div>
 
       <div className='Hotel'>Hotel Menu</div>
-      <hr style={{ height: "1px" }}
+      <hr style={{ height: "1px",backgroundColor:"#4682A9",
+      marginLeft:"22px",marginRight:"22px" }}
       />
       <div className='MorningContainer'>
         <div className='MorningRow'>
