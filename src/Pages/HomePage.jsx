@@ -1,3 +1,4 @@
+import './images/croissant.png';
 import React from 'react'
 import '../Pages/HomePage.css';
 // import { useNavigate } from 'react-router-dom'
@@ -17,6 +18,8 @@ function HomePage() {
       <div className='MorningContainer'>
         <div className='MorningRow'>
           <div className='Morning'>
+            <img src={require('./images/croissant.png')} 
+             alt = ""/>
             <span>Morning Mood</span>
           </div>
 
