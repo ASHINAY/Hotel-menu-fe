@@ -8,15 +8,17 @@
   height: 65px;
   display: flex;
   flex-direction: column;
-  background: #4682A9;
+  background: red;
   color: white;
   align-items: center;
   justify-content: center;
 
 }
-.AppText{
+
+.AppText {
   font-size: 15px;
   opacity: 0.8;
+  font-family: 'Poppins', sans-serif;
 }
 
 .lastBlock {
@@ -25,13 +27,10 @@
 }
 
 .Title {
-  height: 30px;
-  /* width: 150px; */
   font-family: 'Poppins', sans-serif;
-  font-weight: 300px;
+  font-weight: 300;
   font-size: 22px;
   color: #FFFFFF;
-
 }
 
 .Hotel {
@@ -42,8 +41,6 @@
   font-weight: 200px;
   font-size: 15px;
   color: #FF4949;
-  border-bottom: #FF4949;
-  min-width: 150px;
 }
 
 .Morning {
@@ -73,12 +70,6 @@
 
 }
 
-.MainContainer {
-  display: flex;
-  justify-content: row;
-
-  flex-direction: column;
-}
 
 @media screen and (max-width: 768px) {
   .MainContainer {
