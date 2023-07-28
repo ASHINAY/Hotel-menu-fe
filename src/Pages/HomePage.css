@@ -7,8 +7,8 @@
 .MainContainer {
   height: 65px;
   display: flex;
-  flex-direction: column;
-  background: red;
+  flex-direction: column-reverse;
+  background: #4682A9;
   color: white;
   align-items: center;
   justify-content: center;
@@ -31,6 +31,7 @@
   font-weight: 300;
   font-size: 22px;
   color: #FFFFFF;
+
 }
 
 .Hotel {
@@ -40,7 +41,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 200px;
   font-size: 15px;
-  color: #FF4949;
+  color: #4682A9;
 }
 
 .Morning {
