@@ -1,50 +1,67 @@
 import morningIcon from '../images/morningIcon.png'
+import MiddayIcon from '../images/MiddayIcon.png'
+import LunchIcon from '../images/LunchIcon.png'
+import sunsetIcon from '../images/sunsetIcon.png'
+import moonlightIcon from '../images/moonlightIcon.png'
 import React from 'react'
+import  {useNavigate}  from 'react-router-dom'
 import '../Pages/HomePage.css';
 
 
 function HomePage() {
+  const borderColors = ['#FF7043', '#228B22', '#FF1493', '#00008B'];
+  const navigate = useNavigate();
+  const onMorningMoodsClick = ()=> {
+    navigate("/MorningPage")
+  }
   return (
     <div className='wholePage'>
-      <div className='MainContainer'>
+      <div className='AppBar'>
         <div className='Title' >Hotel Anna Poorna</div>
         <div className='AppText'>Tastes Like Heaven, Feels Like Home</div>
       </div>
 
       <div className='Hotel'>Hotel Menu</div>
-      <hr style={{
-        height: "1px", backgroundColor: "#4682A9",
-        marginLeft: "22px", marginRight: "22px"
-      }}
-      />
+      <hr className='Line' />
       <div className='MorningContainer'>
+
         <div className='MorningRow'>
           <div className='Morning'>
-            <img
-              style={{ margin: "0px 2px 5px 30px" }}
-              src={morningIcon} />
-
-            <span style={{ display: "flex", flexDirection: "column" }}>Morning Mood</span>
-
+            <div className='Moods'>
+              <img className='ImageTg' src={morningIcon} />
+              <span className='Text' onClick={onMorningMoodsClick} >Morning Moods</span>
+            </div>
           </div>
 
-          <div className='Morning'>
-            <span>Midday Munch</span>
+          <div className='Morning' style={{ borderColor: borderColors[0] }}>
+            <div className='Moods'>
+              <img className='ImageTag' src={MiddayIcon} />
+              <span className='Text'>Midday Munch</span>
+            </div>
           </div>
         </div>
         <div className='MorningRow'>
-          <div className='Morning'>
-            <span>Lunch Luxuries</span>
+          <div className='Morning' style={{ borderColor: borderColors[1] }}>
+            <div className='Moods'>
+              <img className='ImageTag' src={LunchIcon} />
+              <span className='Text'>Lunch Luxuries</span>
+            </div>
           </div>
 
-          <div className='Morning'>
-            <span>Sunset Sips</span>
+          <div className='Morning' style={{ borderColor: borderColors[2] }}>
+            <div className='Moods'>
+              <img className='ImageTag' src={sunsetIcon} />
+              <span className='Text'>Sunset Sips</span>
+            </div>
           </div>
+
         </div>
-        <div className='lastBlock'>
-          <div className='Morning'>
-
-            <span>Moonlight stips</span>
+        <div div className='lastBlock'>
+          <div className='Morning' style={{ borderColor: borderColors[3] }}>
+            <div className='Mood'>
+              <img className='ImageTag' src={moonlightIcon} />
+              <span className='Text'>Moonlight stips</span>
+            </div>
           </div>
         </div>
       </div>

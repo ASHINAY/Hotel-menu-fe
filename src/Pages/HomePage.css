@@ -4,7 +4,7 @@
   background: #F0E9E9;
 }
 
-.MainContainer {
+.AppBar {
   height: 65px;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@
 .lastBlock {
   display: flex;
   justify-content: center;
+  color: #00008B;
 }
 
 .Title {
@@ -42,25 +43,55 @@
   color: #4682A9;
 }
 
+.Line{
+  height: 1px;
+  background-color: #4682A9;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
 .Morning {
-  width: 150px;
-  height: 120px;
+  width: 205px;
+  height: 150px;
   margin-top: 17px;
-  margin-left: 20px;
+  margin-left: 20px; 
   border-radius: 8px;
-  border: 2px solid #4682A9;
+  border: 2px solid #C58940;
   background-color: #FFFFFF;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
-  font-size: 18px;
+  font-size: 15px;
   color: black;
-  margin-right: 20px;
+   margin-right: 20px;   
+  
   column-gap: 40px;
   gap: 40px;
   flex-wrap: wrap;
 }
+   .Text{
+  display: inline-block;
+   margin-top: 20px; 
+margin-left: 10px;
+margin-bottom: 20px;
+  background-color: #00000000;
+  font-family: 'Poppins', sans-serif ;
+}  
+.ImageTag{
+  height: 80px;
+  width:80px;
+
+} 
+.Moods{
+  display: flex;
+  flex-direction: column;  
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+ margin-bottom: 20px;
+ 
+}     
 
 .MorningRow {
   display: flex;
