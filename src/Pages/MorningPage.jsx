@@ -15,7 +15,7 @@ function MorningPage() {
   return (
     <div className='wholePage'>
       <div className='ApBar'>
-        <img className='MaskGroup' src={Maskgroup} onClick={navigateToHomePage} />
+        <img className='MaskGroup' src={Maskgroup} alt="Maskgroup" onClick={navigateToHomePage} />
         <div className='Title' >Morning Moods</div>
       </div>
       <div className='MenuDisplay'>

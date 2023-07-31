@@ -11,12 +11,14 @@
   background: #4682A9;
   align-items: center;
   justify-content: center;
+  
 }
 .AppText {
   font-size: 15px;
   opacity: 0.8;
   font-family: 'Poppins', sans-serif;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 .lastBlock {
@@ -30,7 +32,7 @@
   font-weight: 400;
   font-size: 22px;
   color: #FFFFFF;
-
+margin-top: 14px;
 }
 
 .Hotel {
@@ -90,6 +92,7 @@ margin-bottom: 20px;
   align-items: center;
   margin-top: 40px;
  margin-bottom: 20px;
+ cursor: pointer ;
  
 }     
 

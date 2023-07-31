@@ -41,8 +41,8 @@ const HomePage = () => {
         <div className='MorningRow'>
           <div className='Morning'>
             <div className='Moods' onClick={onMorningMoodsClick}>
-              <img className='ImageTg' src={morningIcon}  />
-              <span className='Text' >Morning Moods</span>
+              <img className='ImageTg' src={morningIcon} alt="morningIcon" />
+              <span className='Text'>Morning Moods</span>
             </div>
           </div>
 
