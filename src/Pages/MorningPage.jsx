@@ -1,16 +1,21 @@
 import React from 'react'
 import '../Pages/MorningPage.css';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import croissant from '../images/croissant.png'
 import Maskgroup from '../images/Mask group.png'
+
 function MorningPage() {
   const location = useLocation();
   const { morningMoodsData } = location.state || {};
+  const navigate = useNavigate();
+  const navigateToHomePage = () => {
+    navigate("/")
+  }
 
   return (
     <div className='wholePage'>
       <div className='ApBar'>
-        <img className='MaskGroup' src={Maskgroup} />
+        <img className='MaskGroup' src={Maskgroup} onClick={navigateToHomePage} />
         <div className='Title' >Morning Moods</div>
       </div>
       <div className='MenuDisplay'>
