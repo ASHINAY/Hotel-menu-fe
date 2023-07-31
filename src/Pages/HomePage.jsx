@@ -24,7 +24,7 @@ const HomePage = () => {
   ];
   const navigate = useNavigate();
   const onMorningMoodsClick = () => {
-    navigate("/MorningPage", { state: { morningMoodsData } })
+    navigate("/MorningPage", { state: { morningMoodsData, color:'brown' } })
   }
 
   return (

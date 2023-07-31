@@ -9,7 +9,7 @@
    display: flex;
    gap: 5px;
    flex-direction: row;
-   background: #C58940;
+   /* background: #C58940; */
    align-items: center;
  }
 
