@@ -4,16 +4,29 @@ import LunchIcon from '../images/LunchIcon.png'
 import sunsetIcon from '../images/sunsetIcon.png'
 import moonlightIcon from '../images/moonlightIcon.png'
 import React from 'react'
-import  {useNavigate}  from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import '../Pages/HomePage.css';
 
 
-function HomePage() {
+const HomePage = () => {
   const borderColors = ['#FF7043', '#228B22', '#FF1493', '#00008B'];
+  const morningMoodsData = [
+    {
+      "item_name": "Idli",
+      "item_price": 70,
+      "item_image": "https://i.postimg.cc/qRp4xrZ7/deepal-tamang-5o-F7d-h-PJG4-unsplash.jpg"
+    },
+    {
+      "item_name": "Masala Dosa",
+      "item_price": 100,
+      "item_image": "https://i.postimg.cc/qRp4xrZ7/deepal-tamang-5o-F7d-h-PJG4-unsplash.jpg"
+    }
+  ];
   const navigate = useNavigate();
-  const onMorningMoodsClick = ()=> {
-    navigate("/MorningPage")
+  const onMorningMoodsClick = () => {
+    navigate("/MorningPage", { state: { morningMoodsData } })
   }
+
   return (
     <div className='wholePage'>
       <div className='AppBar'>
