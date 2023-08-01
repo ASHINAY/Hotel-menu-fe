@@ -4,69 +4,66 @@
    background: #F0E9E9;
  }
 
-   .ApBar {
+ .ApBar {
    height: 65px;
    display: flex;
-   gap: 5px; 
-   flex-direction: row; 
-    justify-content: center;
-   /* background: #C58940; */
-      align-items: center;
-  
-  }  
+   gap: 5px;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
 
-   .MaskGroup {
+ .MaskGroup {
    width: 25px;
    height: 25px;
    padding-left: 5px;
- }  
+ }
 
-   .Title {
+ .Title {
    font-family: 'Poppins', sans-serif;
    font-weight: 400;
    flex: 1px;
-    display: flex;
-    margin-bottom: 28px;
-   justify-content: center;  
-   /* align-items: center; */
-    text-align: center;
+   display: flex;
+   margin-bottom: 28px;
+   justify-content: center;
+   text-align: center;
    font-size: 22px;
    color: #FFFFFF;
 
- }   
+ }
 
-  .MenuDisplay {
+ .MenuDisplay {
    height: 67px;
    width: 350px;
    margin-left: 17px;
    margin-top: 10px;
    border-radius: 4px;
    display: flex;
-  flex-direction: column;
-  gap:20px;
- } 
+   flex-direction: column;
+   gap: 20px;
+ }
 
-  .mod {
+ .mod {
    display: flex;
    flex-direction: row;
    align-items: flex-start;
-   border: 2px solid #C58940; 
- }   
+   border: 2px solid #C58940;
+ }
+
  .item-info {
    display: flex;
    flex-direction: row;
-   align-items: center;
-   justify-content: center; 
-   text-align: center;
+   justify-content: space-between;
+   margin-right: 15px;
    margin-top: 20px;
    margin-left: 4px;
    flex-wrap: wrap;
-   gap: 100px;
- } 
+   width: 100%;
+ }
 
-  .item-info span:last-child {
-    margin-left: auto;
- } 
+ .item-info span:last-child {
+   margin-left: auto;
+ }
 
  .image {
 
@@ -74,4 +71,4 @@
    width: 99px;
    border-radius: 4px 0px 0px 4px;
 
- }  
+ }

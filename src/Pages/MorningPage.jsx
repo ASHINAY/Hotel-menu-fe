@@ -16,13 +16,13 @@ function MorningPage() {
 
   return (
     <div className='wholePage'>
-       <div className='ApBar' style={{ background: color }
+      <div className='ApBar' style={{ background: color }
       }>
         <img className='MaskGroup' src={Maskgroup} alt="Maskgroup" onClick={navigateToHomePage} />
         <div className='Title' >Morning Moods</div>
-      </div > 
+      </div >
 
-       <div className='MenuDisplay'>
+      <div className='MenuDisplay'>
         {morningMoodsData &&
           morningMoodsData.map((item, index) => (
             <div key={index} className='mod'>
@@ -35,7 +35,7 @@ function MorningPage() {
 
           ))}
 
-      </div> 
+      </div>
     </div>
 
   )
