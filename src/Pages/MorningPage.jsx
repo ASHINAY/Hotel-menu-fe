@@ -6,7 +6,7 @@ import Maskgroup from '../images/Mask group.png'
 
 function MorningPage() {
   const location = useLocation();
-  const { morningMoodsData, color } = location.state || {};
+  const { morningMoodsData, color, Name } = location.state || {};
 
   console.log(location.state);
   const navigate = useNavigate();
@@ -19,7 +19,7 @@ function MorningPage() {
       <div className='ApBar' style={{ background: color }
       }>
         <img className='MaskGroup' src={Maskgroup} alt="Maskgroup" onClick={navigateToHomePage} />
-        <div className='Title' >Morning Moods</div>
+        <div className='Title' >{Name}</div>
       </div >
 
       <div className='MenuDisplay'>
