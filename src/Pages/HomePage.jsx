@@ -14,7 +14,7 @@ const HomePage = () => {
     {
       "item_name": "Idli",
       "item_price": 70,
-      "item_image": "https://i.postimg.cc/qRp4xrZ7/deepal-tamang-5o-F7d-h-PJG4-unsplash.jpg"
+      "item_image": "https://i.postimg.cc/25y4bLBp/istockphoto-1145169012-1024x1024.jpg"
     },
     {
       "item_name": "Masala Dosa",

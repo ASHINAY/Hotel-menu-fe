@@ -4,34 +4,36 @@
    background: #F0E9E9;
  }
 
-  .ApBar {
+   .ApBar {
    height: 65px;
    display: flex;
    gap: 5px; 
    flex-direction: row; 
-   
+    justify-content: center;
    /* background: #C58940; */
-    align-items: center;
-  
- }
+     align-items: center;
+ 
+ } 
 
- .MaskGroup {
+  .MaskGroup {
    width: 25px;
    height: 25px;
    padding-left: 5px;
- }
+ } 
 
- .Title {
+  .Title {
    font-family: 'Poppins', sans-serif;
    font-weight: 400;
    flex: 1px;
     display: flex;
-   justify-content: center;
-   align-items: center;
+    margin-bottom: 28px;
+   justify-content: center; 
+   /* align-items: center; */
+   text-align: center;
    font-size: 22px;
    color: #FFFFFF;
 
- } 
+ }  
 
  .MenuDisplay {
    height: 67px;
@@ -40,26 +42,32 @@
    margin-top: 10px;
    border: 2px solid #C58940;
    border-radius: 4px;
- }
+ } 
 
- .mod {
+  .mod {
    display: flex;
    flex-direction: row;
    align-items: flex-start;
- }
-
+ }  
+ .MultipleBlocks{
+  display: flex;
+  flex-direction: column;
+  
+  flex-wrap: wrap;
+  gap:10px;
+} 
  .item-info {
    display: flex;
    flex-direction: row;
    align-items: center;
-   justify-content: center;
+   justify-content: center; 
    /* To center the "Ghee Dosa" text */
-    text-align: center;
+     text-align: center;
    margin-top: 20px;
    margin-left: 4px;
    flex-wrap: wrap;
    gap: 130px;
- }
+ } 
 
   .item-info span:last-child {
     margin-left: auto;
