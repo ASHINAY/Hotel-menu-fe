@@ -30,8 +30,8 @@ const HomePage = () => {
   return (
     <div className='wholePage'>
       <div className='AppBar'>
-        <div className='Title' >Hotel Anna Poorna</div>
-        <div className='AppText'>Tastes Like Heaven, Feels Like Home</div>
+        <div className='HotelName' >Hotel Anna Poorna</div>
+        <div className='ApText'>Tastes Like Heaven, Feels Like Home</div>
       </div>
 
       <div className='Hotel'>Hotel Menu</div>

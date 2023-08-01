@@ -14,7 +14,7 @@
 
 }
 
-.AppText {
+.ApText {
   font-size: 15px;
   opacity: 0.8;
   font-family: 'Poppins', sans-serif;
@@ -28,7 +28,7 @@
   color: #00008B;
 }
 
-.Title {
+.HotelName {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 22px;
