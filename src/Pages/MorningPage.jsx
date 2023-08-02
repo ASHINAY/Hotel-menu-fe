@@ -4,9 +4,10 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import croissant from '../images/croissant.png'
 import Maskgroup from '../images/Mask group.png'
 
-function MorningPage() {
+function MorningPage(props) {
   const location = useLocation();
-  const { morningMoodsData, color, Name } = location.state || {};
+  const { menuData, color, Name, Modcolor } = location.state || {};
+  const { modColor } = props;
 
   console.log(location.state);
   const navigate = useNavigate();
@@ -23,9 +24,9 @@ function MorningPage() {
       </div >
 
       <div className='MenuDisplay'>
-        {morningMoodsData &&
-          morningMoodsData.map((item, index) => (
-            <div key={index} className='mod'>
+        {menuData &&
+          menuData.map((item, index) => (
+            <div key={index} className='mod' style={{ borderColor: modColor }}>
               <img className='image' src={item.item_image} />
               <div className="item-info">
                 <span>{item.item_name}</span>
@@ -36,6 +37,8 @@ function MorningPage() {
           ))}
 
       </div>
+
+
     </div>
 
   )
