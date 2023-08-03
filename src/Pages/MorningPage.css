@@ -67,6 +67,10 @@
    flex-wrap: wrap;
    width: 100%;
  }
+ .rupeeClass{
+  opacity: 0.5;
+  color:#557A46;
+ }
 
  .item-info span:last-child {
    margin-left: auto;
@@ -75,7 +79,7 @@
  .image {
 
    height: 75px;
-   width: 95px;
+   width: 105px;
    border-radius: 4px 0px 0px 4px;
    object-fit: cover;
  }

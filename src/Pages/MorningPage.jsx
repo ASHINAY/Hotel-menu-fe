@@ -30,7 +30,7 @@ function MorningPage(props) {
               <img className='image' src={item.item_image} />
               <div className="item-info">
                 <span>{item.item_name}</span>
-                <span style={{ opacity: "0.5",color: "#557A46" }} >₹{item.item_price}</span>
+                <div className='rupeeClass' >₹{item.item_price}</div>
               </div>
             </div>
 
