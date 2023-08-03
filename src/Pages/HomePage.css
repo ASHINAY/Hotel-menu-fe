@@ -53,10 +53,10 @@
 }
 
 .Morning {
-  width: 205px;
-  height: 150px;
+  width: 195px;
+  height: 140px;
   margin-top: 17px;
-  margin-left: 20px;
+  margin-left: 20px; 
   border-radius: 8px;
   border: 2px solid #C58940;
   background-color: #FFFFFF;
@@ -67,10 +67,9 @@
   font-size: 15px;
   color: black;
   margin-right: 20px;
-
   column-gap: 40px;
-  gap: 40px;
-  flex-wrap: wrap;
+  /* gap: 40px; */
+  /* flex-wrap: wrap; */
 }
 
 .Text {
@@ -81,12 +80,10 @@
   background-color: #00000000;
   font-family: 'Poppins', sans-serif;
 }
-
 .ImageTag {
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 80%;
 }
-
 .Moods {
   display: flex;
   flex-direction: column;
