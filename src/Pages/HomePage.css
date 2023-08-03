@@ -86,7 +86,6 @@
 .ImageTag {
   height: 80px;
   width: 80px;
-
 }
 
 .Moods {
@@ -97,7 +96,7 @@
   margin-top: 40px;
   margin-bottom: 20px;
   cursor: pointer;
-
+justify-content: center;
 }
 
 .MorningRow {

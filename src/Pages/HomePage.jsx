@@ -299,7 +299,7 @@ const HomePage = () => {
     })
   }
   const onSunsetSipsClick = () => {
-    navigate("/MorningPage", {
+    navigate("/MorningPage",{
       state: {
         menuData: SunsetSipsData,
         color: '#FF1493', Name: 'Sunset Sips',
@@ -361,7 +361,7 @@ const HomePage = () => {
         </div>
         <div div className='lastBlock'>
           <div className='Morning' style={{ borderColor: borderColors[3] }}>
-            <div className='Mood' onClick={onMoonlightStipsClick}>
+            <div className='Moods' onClick={onMoonlightStipsClick}>
               <img className='ImageTag' src={moonlightIcon} />
               <span className='Text'>Moonlight stips</span>
             </div>
