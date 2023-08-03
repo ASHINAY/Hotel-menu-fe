@@ -54,7 +54,7 @@
    flex-direction: row;
    align-items: flex-start;
    border: 2px solid;
-   border-radius: 4px;
+   border-radius: 5px;
  }
 
  .item-info {
