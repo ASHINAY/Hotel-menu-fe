@@ -2,19 +2,20 @@
    height: 1000vh;
    width: 100%;
    background: #F0E9E9;
-  }
+ }
 
  .ApBar {
-  position: fixed;
+   position: fixed;
    top: 0;
-  left: 0;
-  right: 0; 
+   left: 0;
+   right: 0;
    height: 65px;
    display: flex;
    gap: 5px;
    flex-direction: row;
    justify-content: center;
    align-items: center;
+   z-index: 1;
  }
 
  .MaskGroup {
@@ -54,7 +55,6 @@
    align-items: flex-start;
    border: 2px solid;
    border-radius: 4px;
-
  }
 
  .item-info {
