@@ -9,7 +9,7 @@ import '../Pages/HomePage.css';
 
 
 const HomePage = () => {
-  const borderColors = ['#FF7043', '#228B22', '#FF1493', '#00008B'];
+  const borderColors = ['#FF7043', '#228B22', '#FF1493', '#00008B', '#C58940'];
   const morningMoodsData = [
     {
       "item_name": "Idli",
@@ -272,7 +272,13 @@ const HomePage = () => {
   ]
   const navigate = useNavigate();
   const onMorningMoodsClick = () => {
-    navigate("/MorningPage", { state: { menuData: morningMoodsData, color: '#C58940', Name: 'Morning Moods' } })
+    navigate("/MorningPage", {
+      state: {
+        menuData: morningMoodsData,
+        color: '#C58940', Name: 'Morning Moods',
+        modColor: borderColors[4]
+      }
+    })
   }
   const onMiddayMoodsClick = () => {
     navigate("/MorningPage", {
@@ -287,7 +293,8 @@ const HomePage = () => {
     navigate("/MorningPage", {
       state: {
         menuData: LunchLuxuriesData,
-        color: '#228B22', Name: 'Lunch Luxuries'
+        color: '#228B22', Name: 'Lunch Luxuries',
+        modColor: borderColors[1]
       }
     })
   }
@@ -295,7 +302,8 @@ const HomePage = () => {
     navigate("/MorningPage", {
       state: {
         menuData: SunsetSipsData,
-        color: '#FF1493', Name: 'Sunset Sips'
+        color: '#FF1493', Name: 'Sunset Sips',
+        modColor: borderColors[2]
       }
     })
   }
@@ -303,7 +311,9 @@ const HomePage = () => {
     navigate("/MorningPage", {
       state: {
         menuData: moonlightData,
-        color: '#00008B', Name: 'MoonLight Meals'
+        color: '#00008B', Name: 'MoonLight Meals',
+        modColor: borderColors[3],
+
       }
     })
   }

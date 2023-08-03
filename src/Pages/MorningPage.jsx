@@ -6,8 +6,8 @@ import Maskgroup from '../images/Mask group.png'
 
 function MorningPage(props) {
   const location = useLocation();
-  const { menuData, color, Name, Modcolor } = location.state || {};
-  const { modColor } = props;
+  const { menuData, color, Name, modColor } = location.state || {};
+  //  const { modColor } = props;
 
   console.log(location.state);
   const navigate = useNavigate();
