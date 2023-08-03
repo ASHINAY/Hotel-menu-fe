@@ -299,7 +299,7 @@ const HomePage = () => {
     })
   }
   const onSunsetSipsClick = () => {
-    navigate("/MorningPage",{
+    navigate("/MorningPage", {
       state: {
         menuData: SunsetSipsData,
         color: '#FF1493', Name: 'Sunset Sips',
