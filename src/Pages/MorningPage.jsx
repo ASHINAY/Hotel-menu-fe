@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import '../Pages/MorningPage.css';
 import { useLocation, useNavigate } from 'react-router-dom';
 import croissant from '../images/croissant.png'
@@ -8,14 +8,19 @@ function MorningPage(props) {
   const location = useLocation();
   const { menuData, color, Name, modColor } = location.state || {};
   //  const { modColor } = props;
-
-  console.log(location.state);
   const navigate = useNavigate();
   const navigateToHomePage = () => {
     navigate("/")
   }
 
-  return (
+useEffect ( () => {
+   if (menuData === undefined) {
+    navigate('/');
+    console.log(menuData);
+   }
+  
+},[]);
+return (
     <div className='wholePage'>
       <div className='ApBar' style={{ background: color }
       }>
