@@ -22,8 +22,11 @@
 }
 
 .lastBlock {
+  width: 195px;
+  height: 140px; 
   display: flex;
   justify-content: center;
+  margin: auto;
   color: #00008B;
 }
 

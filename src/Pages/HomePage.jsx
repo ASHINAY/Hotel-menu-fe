@@ -360,7 +360,7 @@ const HomePage = () => {
 
         </div>
         <div div className='lastBlock'>
-          <div className='Morning' style={{ borderColor: borderColors[3] }}>
+          <div className='Morning' style={{ borderColor: borderColors[3]}}>
             <div className='Moods' onClick={onMoonlightStipsClick}>
               <img className='ImageTag' src={moonlightIcon} />
               <span className='Text'>Moonlight stips</span>
