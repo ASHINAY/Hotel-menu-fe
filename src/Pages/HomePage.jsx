@@ -318,7 +318,7 @@ const HomePage = () => {
     })
   }
   return (
-    <div className='wholePage'>
+    <div className='wholPage'>
       <div className='AppBar'>
         <div className='HotelName' >Hotel Anna Poorna</div>
         <div className='ApText'>Tastes Like Heaven, Feels Like Home</div>
