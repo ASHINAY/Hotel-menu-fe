@@ -12,6 +12,9 @@ function MorningPage(props) {
   const navigateToHomePage = () => {
     navigate("/")
   }
+  const navigateToFeedbackForm = () =>{
+    navigate("/FeedbackForm")
+  }
 
 useEffect ( () => {
    if (menuData === undefined) {
@@ -42,7 +45,7 @@ return (
           ))}
 
       </div>
-
+<button onClick={navigateToFeedbackForm}>FeedBack Form</button>
 
     </div>
 
